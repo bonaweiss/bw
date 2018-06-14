@@ -1,0 +1,66 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <meta http-equiv="refresh" content="99">
+
+
+<head>
+<style type="text/css">
+body {
+margin-top:0px;
+background-color: #171717;
+}
+
+img#ok {
+	position: relative;
+	top:25%;
+       width:20%;
+	z-index:1;
+	max-width:300px;
+}
+img#spacer {
+	position: relative;
+	top:0;
+       width:5%;
+	z-index:1;
+	max-width:300px;
+}
+.vimeo-wrapper {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 0;
+   pointer-events: none;
+   overflow: hidden;
+}
+.vimeo-wrapper iframe {
+   width: 100vw;
+   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+   min-height: 100vh;
+   min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+<center>
+
+
+<div class="vimeo-wrapper">
+   <iframe src="https://player.vimeo.com/video/273157403?background=1&autoplay=1&loop=1&byline=0&title=0"
+          type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<div style="position:relative;height:100%;width:100%;min-width:320px;">
+<a href="https://www.linkedin.com/in/bonaweiss" target="_blank"><img src="linkedin.png" id="ok"></a>
+<img src="spacer.png" id="spacer">
+<a href="https://www.instagram.com/bonaweissmedia/" target="_blank"><img src="insta.png" id="ok"></a>
+<img src="spacer.png" id="spacer">
+<a href="https://vimeo.com/bonaweiss" target="_blank"><img src="vimeo.png" id="ok"></a>
+</div>
+</center>
+</body>
+</html>
